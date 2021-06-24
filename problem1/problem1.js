@@ -1,6 +1,8 @@
 // ==== Implement your code here! ====
-function helloWorld() {
+console.log('Hello World');
 
+function range(start, end) {
+    return Array(end - start + 1).fill().map((_, idx) => start + idx)
 }
-
-helloWorld();
+var result =range(1, 10)
+console.log(result)
